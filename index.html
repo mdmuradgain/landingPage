@@ -8,8 +8,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <nav>
+    <!-- Navbar >>>>>> -->
+    <nav class="p-3 flex bg-white justify-between items-center">
+    <a href="#" id="brand" class="flex gap-2 items-center">
+        <img class="object-cover max-w-12 max-h-12" src="./assets/asset 0.png" alt="logo">
+        <span class="text-lg font-medium font-display">ToDesktop</span>
+    </a>
+    <div id="nav-menu" class=" hidden md:flex gap-12">
+        <a class="font-medium hover:text-primary" href="#">Pricing</a>
+        <a class="font-medium hover:text-primary" href="#">Docs</a>
+        <a class="font-medium hover:text-primary" href="#">ChangeLog</a>
+        <a class="font-medium hover:text-primary" href="#">Blogs</a>
+        <a class="font-medium hover:text-primary" href="#">Login</a>
+    </div>
 
+    <button class="hidden md:block">
+        ELectron Developers
+    </button>
+
+    <button class="p-2 md:hidden" onclick="handleMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
     </nav>
+    <!-- >>>>>>>>Navbar End -->
 </body>
+<script src="script.js"></script>
 </html>

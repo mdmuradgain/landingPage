@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'primary': '#ee0181',
-        'anuj': '#01ee91'
+        'primary': '#3238f2',
       },
       fontFamily:{
-        'anuj-font': ['Poppins', 'sans-serif']
+        'display': ['Poppins', 'sans-serif'],
+        'body': ['Inter', 'sans-serif']
       }
     },
   },
