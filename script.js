@@ -1,4 +1,5 @@
+const navDialog = document.getElementById('nav-dailog');
 function handleMenu(){
-    console.log('first');
+    navDialog.classList.toggle('hidden');
     
 }
